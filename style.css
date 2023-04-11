@@ -1,0 +1,320 @@
+.container { 
+    display: flex;
+    width: 1020px;
+    margin: 0 auto;
+  }
+
+  aside {
+    background: #ffc501;
+    width: 408px;
+    line-height: 0px;
+  }
+
+  #praviy_blok {
+    background:#303030;
+    width: 893px;
+    color: white;
+    line-height: 0;
+  }
+
+  .leviye_punkti {
+      background: #303030;
+      width: 184px;
+      height: 29px;
+      line-height: 29px;
+      font-size: 20px;
+      padding-left: 34px;
+      margin: 47px 0 34px 39px;
+  }
+
+  .leviye_punkti a {
+    color: white;
+  }
+
+  header {
+      background: #ffc501;
+      color: #303030;
+      height: 68px;
+      line-height: 68px;
+      font-size: 29px;
+      padding-left: 19px;
+      margin: 97px 0 0 136px;
+  }
+
+  .praviye_punkti {
+    background: white;
+    width: 301px;
+    color: #303030;
+    height: 29px;
+    line-height: 29px;
+    font-size: 20px;
+    margin-top: 33px;
+    padding-left: 49px;
+ }
+
+  #foto {
+    margin: 53px 0 115px 58px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  #kontakti {
+    margin-left: 83px;
+  }
+
+  hr {
+    width: 200px;
+    color: black;
+    border: 0 solid black;
+  }
+
+#Ed {
+  line-height: 22px;
+  text-align: justify;
+  margin: 0 20px 58px 50px;
+}
+
+#skill {
+  line-height: 25px;
+  margin-left: 83px;
+}
+
+#professiya {
+  border: solid 2px white;
+  border-top: 0px;
+  height: 34px;
+  line-height: 34px;
+  width: 338px;
+  padding-left: 17px;
+  font-size: 20px;
+  margin: 0 0 75px 136px;
+}
+
+main {
+  line-height: 22px;
+  text-align: justify;
+  margin: 0 20px 56px 83px;
+}
+
+figure {
+  line-height: 20px;
+  padding-top: 0;
+}
+
+#zadaniye {
+  margin: 35px 0 0 82px;
+}
+
+pre {
+  font-size: 15px;
+}
+
+#language {
+  line-height: 30px;
+  margin: 30px 0 0 65px;
+}
+
+#foto {
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-right: none;
+  padding: 5px 0 0 5px;
+}
+
+#HTML {
+  background: url('assets/png/HTML.png') no-repeat 3px 9px;
+  padding: 10px 0 0 30px;
+}
+
+#spisok_skills {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#CSS {
+  background: url('assets/png/CSS.png') no-repeat 5px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+#JavaScript {
+  background: url("assets/png/JS.png") no-repeat 0px 13px;
+  background-position: 0px 13px;
+  padding: 10px 0 0 30px;
+  margin: -5px 0 5px;
+}
+
+#Git {
+  background: url("assets/png/Github.png") no-repeat;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-bottom: 6px; 
+}
+
+#text {
+  background: url("assets/png/VSCode.png") no-repeat;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-bottom: 6px;
+}
+
+#CarelDraw {
+  background: url("assets/png/CD.png") no-repeat;
+  padding-left: 30px;
+}
+
+#Russian {
+  background: url("assets/png/Ru.png") no-repeat left;
+  padding-left: 30px
+}
+
+#yaziki {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 18px;
+  font-weight: bold;
+}
+
+#English {
+  background: url("assets/png/En.png") no-repeat left;
+  padding-left: 30px
+}
+
+#Uzbek {
+  background: url("assets/png/Uz.png") no-repeat left;
+  padding-left: 30px
+}
+
+#Tajik {
+  background: url("assets/png/Tj.png") no-repeat left;
+  padding-left: 30px
+}
+
+#univer {
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 586px;
+  height: 100px;
+  background-color: #ffc501;
+  margin-left: 108px;
+  line-height: 0px;
+  color: #303030;
+  font: 25px/10px;
+  display: flex;  
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+
+#kartinka_rs {
+  margin-top: 10px;
+  border: none;;
+}
+
+#leviy_footer {
+  flex-grow: 1;
+}
+
+#praviy_footer {
+  width: 160px;
+}
+
+#praviy_footer img {
+  border: none;
+  margin: 0;
+  margin-top: 10px;
+}
+
+pre {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#created {
+  line-height: 70px;
+}
+
+#ul_contacts {
+  list-style: none;
+  line-height: 15px;
+  padding-left: 0;
+}
+
+body {
+  background-color: #d4d4d4;
+}
+
+#burger_menu li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.burger {
+  color: white;
+}
+
+.burger:hover {
+  text-decoration: underline;
+}
+
+#mygit:hover {
+  font-weight: bold;
+}
+
+.spisok_contacts {
+  border-bottom: solid 2px black;
+  margin-bottom: 20px;
+} 
+
+h1 {
+  font-size: 34px;
+}
+
+.projPic {
+  margin-top: 25px;
+  margin-left: 50px;
+  object-fit: contain;
+}
+
+.projCon {
+  display: flex;
+}
+
+  .projCon p {
+    width: 200px;
+    line-height: 21px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+  }
+
+  .projCon_2 p {
+    margin-top: 40px;
+  }
+
+    .projCon p a {
+      color: white;
+      margin-top: 20px;
+      display: block;
+      background: #ffc501;
+      text-align: center;
+      color: #303030;
+      text-transform: uppercase;
+      padding: 5px;
+    }
+
+    .projCon a:hover {
+      text-decoration: underline;
+    }
+
+    .skills {
+      margin-top: 98px;
+    }
