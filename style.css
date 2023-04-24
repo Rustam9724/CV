@@ -25,6 +25,7 @@
       font-size: 20px;
       padding-left: 34px;
       margin: 47px 0 34px 39px;
+      border-radius: 10px;
   }
 
   .leviye_punkti a {
@@ -39,7 +40,8 @@
       font-size: 29px;
       padding-left: 19px;
       margin: 97px 0 0 136px;
-  }
+      border-radius: 10px 0 0 0;
+}
 
   .praviye_punkti {
     background: white;
@@ -50,6 +52,7 @@
     font-size: 20px;
     margin-top: 33px;
     padding-left: 49px;
+    border-radius: 0 10px 10px 0;
  }
 
   #foto {
@@ -81,6 +84,53 @@
   margin-left: 83px;
 }
 
+#skill div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: max-content;
+  column-gap: 20px;
+}
+
+#skill div div {
+  width: 22px;
+  height: 22px;
+}
+
+#skill div:first-child div {
+  background-image: url("assets/png/HTML.png");
+}
+
+#skill div:nth-child(2) div {
+  background-image: url("assets/png/CSS.png");
+}
+
+#skill div:nth-child(3) div {
+  background-image: url("assets/png/JS.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#skill div:nth-child(4) div {
+  background-image: url("assets/png/Github.png");
+  background-size: contain;
+}
+
+#skill div:nth-child(5) div {
+  background-image: url("assets/png/React-icon.png");
+  background-clip: cover;
+  background-repeat: no-repeat;
+}
+
+#skill div:nth-child(6) div {
+  background-image: url("assets/png/webpack.png");
+  background-size: cover;
+}
+
+#skill p {
+  font-weight: bold;
+}
+
 #professiya {
   border: solid 2px white;
   border-top: 0px;
@@ -90,6 +140,7 @@
   padding-left: 17px;
   font-size: 20px;
   margin: 0 0 75px 136px;
+  border-radius: 0 0 10px 10px;
 }
 
 main {
@@ -130,7 +181,6 @@ pre {
 
 #spisok_skills {
   list-style-type: none;
-  padding-left: 0;
 }
 
 #CSS {
@@ -143,21 +193,17 @@ pre {
   background: url("assets/png/JS.png") no-repeat 0px 13px;
   background-position: 0px 13px;
   padding: 10px 0 0 30px;
-  margin: -5px 0 5px;
 }
 
 #Git {
   background: url("assets/png/Github.png") no-repeat;
   background-repeat: no-repeat;
   padding-left: 30px;
-  margin-bottom: 6px; 
 }
 
-#text {
-  background: url("assets/png/VSCode.png") no-repeat;
-  background-repeat: no-repeat;
+#React {
+  background: url("assets/svg/React-icon.png") no-repeat center;
   padding-left: 30px;
-  margin-bottom: 6px;
 }
 
 #CarelDraw {
@@ -167,7 +213,8 @@ pre {
 
 #Russian {
   background: url("assets/png/Ru.png") no-repeat left;
-  padding-left: 30px
+  padding-left: 30px;
+  margin-bottom: 10px;
 }
 
 #yaziki {
@@ -179,17 +226,20 @@ pre {
 
 #English {
   background: url("assets/png/En.png") no-repeat left;
-  padding-left: 30px
+  padding-left: 30px;
+  margin-bottom: 10px;
 }
 
 #Uzbek {
   background: url("assets/png/Uz.png") no-repeat left;
-  padding-left: 30px
+  padding-left: 30px;
+  margin-bottom: 10px;
 }
 
 #Tajik {
   background: url("assets/png/Tj.png") no-repeat left;
-  padding-left: 30px
+  padding-left: 30px;
+  margin-bottom: 10px;
 }
 
 #univer {
@@ -203,9 +253,13 @@ footer {
   margin-left: 108px;
   line-height: 0px;
   color: #303030;
-  font: 25px/10px;
-  display: flex;  
   margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 a {
@@ -213,33 +267,9 @@ a {
   color: #303030;
 }
 
-
-#kartinka_rs {
-  margin-top: 10px;
-  border: none;;
-}
-
-#leviy_footer {
-  flex-grow: 1;
-}
-
-#praviy_footer {
-  width: 160px;
-}
-
-#praviy_footer img {
-  border: none;
-  margin: 0;
-  margin-top: 10px;
-}
-
 pre {
   margin-bottom: 0;
   padding-bottom: 0;
-}
-
-#created {
-  line-height: 70px;
 }
 
 #ul_contacts {
@@ -272,6 +302,7 @@ body {
 .spisok_contacts {
   border-bottom: solid 2px black;
   margin-bottom: 20px;
+  padding-bottom: 5px;
 } 
 
 h1 {
@@ -281,7 +312,9 @@ h1 {
 .projPic {
   margin-top: 25px;
   margin-left: 50px;
-  object-fit: contain;
+  width: 268px;
+  height: 134px;
+  box-shadow: 0px 4px 18px rgba(75, 70, 92, 0.5);
 }
 
 .projCon {
@@ -309,6 +342,7 @@ h1 {
       color: #303030;
       text-transform: uppercase;
       padding: 5px;
+      border-radius: 10px;
     }
 
     .projCon a:hover {
